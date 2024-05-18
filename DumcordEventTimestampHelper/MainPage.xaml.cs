@@ -8,12 +8,19 @@ namespace DumcordEventTimestampHelper
         public MainPage()
         {
             InitializeComponent();
+
+            // Load the saved message
+            string savedMessage = Preferences.Get("preparedMessage", string.Empty);
+            PreparedMessageEntry.Text = savedMessage;
         }
 
         private void SetClipboardButton_Clicked(object sender, EventArgs e)
         {
             // Get the prepared message from the textbox
             string preparedMessage = PreparedMessageEntry.Text;
+
+            // Save the prepared message
+            Preferences.Set("preparedMessage", preparedMessage);
 
             // Get the selected time from the time picker
             TimeSpan selectedTime = TimestampTimePicker.Time;
