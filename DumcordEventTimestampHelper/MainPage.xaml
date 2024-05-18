@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DumcordEventTimestampHelper.MainPage"
+             BackgroundColor="{DynamicResource PageBackgroundColor}">
+    <ScrollView>
+        <StackLayout Padding="20">
+            <!-- Prepared Message Textbox -->
+            <Entry Placeholder="Enter message"
+                   x:Name="PreparedMessageEntry" />
+
+            <!-- Time Picker -->
+            <TimePicker Format="h:mm tt"
+                        x:Name="TimestampTimePicker" />
+
+            <!-- Button to Set Clipboard -->
+            <Button Text="Copy to Clipboard"
+                    Clicked="SetClipboardButton_Clicked" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
