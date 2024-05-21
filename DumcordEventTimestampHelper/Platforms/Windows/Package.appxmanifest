@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Package
   xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
   xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
@@ -6,7 +6,7 @@
   xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
   IgnorableNamespaces="uap rescap">
 
-  <Identity Name="48031RoboMWM.515688B429B88" Publisher="CN=23340718-5F2B-4B75-BC64-011F769563A6" Version="1.1.0.0" />
+  <Identity Name="48031RoboMWM.515688B429B88" Publisher="CN=23340718-5F2B-4B75-BC64-011F769563A6" Version="1.1.1.0" />
 
   <mp:PhoneIdentity PhoneProductId="5b2ecb3f-130b-406b-97b2-36c616cd0086" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
